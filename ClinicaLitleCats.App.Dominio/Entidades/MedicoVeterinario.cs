@@ -8,5 +8,6 @@ namespace ClinicaLitleCats.App.Dominio
         public string Especialidad { get; set; }
         public string RegistroRethus { get; set; }
     }
+    
 
 }
