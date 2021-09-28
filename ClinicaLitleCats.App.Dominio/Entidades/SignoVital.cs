@@ -9,6 +9,7 @@ namespace ClinicaLitleCats.App.Dominio
         public Signo Signo { get; set; }
         public long  Valor { get; set; }
 
+
     }
 
 }
