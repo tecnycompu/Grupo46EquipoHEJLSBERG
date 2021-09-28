@@ -24,4 +24,3 @@ namespace ClinicaLitleCats.App.Servicios
                 });
     }
 }
-

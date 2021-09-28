@@ -17,13 +17,13 @@
           "C:\\Users\\ATC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netstandard2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
+          "netstandard2.1": {
             "projectReferences": {}
           }
         },
@@ -34,7 +34,22 @@
         }
       },
       "frameworks": {
-        "net5.0": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
         }
       }
@@ -52,13 +67,13 @@
           "C:\\Users\\ATC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netstandard2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
+          "netstandard2.1": {
             "projectReferences": {
               "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj": {
                 "projectPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj"
@@ -73,7 +88,7 @@
         }
       },
       "frameworks": {
-        "net5.0": {
+        "netstandard2.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -94,6 +109,21 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"

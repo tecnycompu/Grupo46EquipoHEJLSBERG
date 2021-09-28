@@ -14,6 +14,5 @@ namespace ClinicaLitleCats.App.Dominio
         public string Estado { get; set; }
         public int IdPropietario { get; set; }
     }
-    
 
 }

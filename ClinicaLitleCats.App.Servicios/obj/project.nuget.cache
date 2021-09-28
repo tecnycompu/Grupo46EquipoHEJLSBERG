@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F2U2/luFDsbXJ5JqWTCnJkXru/U0qo2gXzAk4MlEXVPck6Kw4bO6MPS1wEFGz39g1pawC2rQp4Z6Y9XxriiIpA==",
+  "dgSpecHash": "1Yj7NtsuCKr4zf+QsWfhc6S2v5jmEegVyKXy3dVG8+dk/C6Cfo5HcXcrcsqSTQ/Y/ZHr3Z3a5ldDvlbKQ2Vx2w==",
   "success": true,
   "projectFilePath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Servicios\\ClinicaLitleCats.App.Servicios.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\HOUSE\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.19\\microsoft.netcore.app.host.win-x64.3.1.19.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

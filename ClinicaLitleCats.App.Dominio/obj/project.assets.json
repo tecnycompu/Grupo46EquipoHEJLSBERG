@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v5.0": {}
+    ".NETStandard,Version=v2.1": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v5.0": []
+    ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
     "C:\\Users\\ATC\\.nuget\\packages\\": {}
@@ -23,13 +23,13 @@
         "C:\\Users\\ATC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "netstandard2.1"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
+        "netstandard2.1": {
           "projectReferences": {}
         }
       },
@@ -40,7 +40,22 @@
       }
     },
     "frameworks": {
-      "net5.0": {
+      "netstandard2.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
       }
     }

@@ -1,5 +1,5 @@
 ﻿using System;
-using ClinicaLitleCats.App.Persistencia;
+using ClinicaLitleCats.App.Dominio;
 
 namespace ClinicaLitleCats.App.Consola
 {
@@ -11,4 +11,3 @@ namespace ClinicaLitleCats.App.Consola
         }
     }
 }
-
