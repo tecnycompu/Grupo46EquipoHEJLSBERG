@@ -738,7 +738,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HOUSE\\.nuget\\packages\\": {}
+    "C:\\Users\\ATC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -746,11 +746,11 @@
       "projectUniqueName": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Consola\\ClinicaLitleCats.App.Consola.csproj",
       "projectName": "ClinicaLitleCats.App.Consola",
       "projectPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Consola\\ClinicaLitleCats.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\HOUSE\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\ATC\\.nuget\\packages\\",
       "outputPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HOUSE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ATC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -760,7 +760,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj": {
               "projectPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj"
@@ -776,7 +775,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -795,18 +793,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.19, 3.1.19]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
       }
     }
   }
