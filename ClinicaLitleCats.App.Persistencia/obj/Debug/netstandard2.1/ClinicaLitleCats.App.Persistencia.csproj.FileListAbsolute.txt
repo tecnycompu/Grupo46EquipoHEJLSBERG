@@ -1,0 +1,12 @@
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.AssemblyInfoInputs.cache
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.AssemblyInfo.cs
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.deps.json
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.dll
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.pdb
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.dll
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.pdb
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.csproj.CopyComplete
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.dll
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.pdb
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.csprojAssemblyReference.cache
