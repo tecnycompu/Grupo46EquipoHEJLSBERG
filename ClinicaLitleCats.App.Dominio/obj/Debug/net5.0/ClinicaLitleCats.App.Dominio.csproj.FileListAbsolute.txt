@@ -1,0 +1,12 @@
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\bin\Debug\net5.0\ClinicaLitleCats.App.Dominio.deps.json
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\bin\Debug\net5.0\ClinicaLitleCats.App.Dominio.dll
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\bin\Debug\net5.0\ref\ClinicaLitleCats.App.Dominio.dll
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\bin\Debug\net5.0\ClinicaLitleCats.App.Dominio.pdb
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\net5.0\ClinicaLitleCats.App.Dominio.csproj.AssemblyReference.cache
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\net5.0\ClinicaLitleCats.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\net5.0\ClinicaLitleCats.App.Dominio.AssemblyInfoInputs.cache
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\net5.0\ClinicaLitleCats.App.Dominio.AssemblyInfo.cs
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\net5.0\ClinicaLitleCats.App.Dominio.csproj.CoreCompileInputs.cache
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\net5.0\ClinicaLitleCats.App.Dominio.dll
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\net5.0\ref\ClinicaLitleCats.App.Dominio.dll
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\net5.0\ClinicaLitleCats.App.Dominio.pdb

@@ -30,4 +30,5 @@ C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debu
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.dll
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.pdb
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.genruntimeconfig.cache
-C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.csprojAssemblyReference.cache
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.csproj.AssemblyReference.cache
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.GeneratedMSBuildEditorConfig.editorconfig

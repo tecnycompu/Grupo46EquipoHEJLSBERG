@@ -11,5 +11,4 @@ namespace ClinicaLitleCats.App.Dominio
 
     }
 
-
 }

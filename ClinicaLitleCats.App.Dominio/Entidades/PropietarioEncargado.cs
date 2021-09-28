@@ -8,7 +8,6 @@ namespace ClinicaLitleCats.App.Dominio
         public string Ocupacion { get; set; }
         public string Nexo { get; set; }
         public string Ciudad { get; set; }
-       
 
     }
 
