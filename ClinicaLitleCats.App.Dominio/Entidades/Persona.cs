@@ -11,7 +11,6 @@ namespace ClinicaLitleCats.App.Dominio
         public string Celular{get;set;}
         public string Email{get;set;}
         public string Direccion{get;set;}
-        
 
     }
 

@@ -13,7 +13,7 @@ namespace ClinicaLitleCats.App.Dominio
         public Byte[] Foto { get; set; }
         public string Estado { get; set; }
         public int IdPropietario { get; set; }
-        
+       
     }
 
 }
