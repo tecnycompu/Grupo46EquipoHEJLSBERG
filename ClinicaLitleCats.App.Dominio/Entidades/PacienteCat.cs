@@ -9,7 +9,7 @@ namespace ClinicaLitleCats.App.Dominio
         public SignoVital SignoVital{get;set;}
 
         public Historia historia{get;set;}
-        
+
 
         public string Alias { get; set; }
         public string Raza { get; set; }
@@ -18,7 +18,6 @@ namespace ClinicaLitleCats.App.Dominio
         public string Color { get; set; }
         public Byte[] Foto { get; set; }
         public string Estado { get; set; }
-        public int IdPropietario { get; set; }
     }
 
 }
