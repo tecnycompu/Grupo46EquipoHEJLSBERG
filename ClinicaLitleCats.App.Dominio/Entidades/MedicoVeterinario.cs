@@ -4,7 +4,6 @@ namespace ClinicaLitleCats.App.Dominio
 
     public class MedicoVeterinario : Persona
     {
-        //public int IdMedico {get;set;}
         public string Especialidad{get;set;}
         public string RegistroRethus{get;set;}
 
