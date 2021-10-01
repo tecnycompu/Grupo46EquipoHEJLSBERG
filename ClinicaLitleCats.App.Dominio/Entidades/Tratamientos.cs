@@ -7,6 +7,8 @@ namespace ClinicaLitleCats.App.Dominio
         public int id {get;set;}
         public DateTime FechaHoraTratamiento { get; set; }
         public string Descripcion { get; set; }
+        
+
 
     }
 
