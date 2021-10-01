@@ -4,10 +4,11 @@ namespace ClinicaLitleCats.App.Dominio
 
     public class PacienteCat
     {
-        public PropietarioEncargado propietarioEncargado {get;set;}
+        public int Id {get;set;}
+        public PropietarioEncargado PropietarioEncargado {get;set;}
         public AuxiliarVeterinario AuxiliarVeterinario {get;set;}
         public SignoVital SignoVital{get;set;}
-
+        public MedicoVeterinario MedicoVeterinario{get;set;}
         public Historia historia{get;set;}
 
 
