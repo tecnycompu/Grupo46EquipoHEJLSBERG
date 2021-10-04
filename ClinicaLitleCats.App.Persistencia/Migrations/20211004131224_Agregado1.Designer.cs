@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ClinicaLitleCats.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211001014435_Inicial")]
-    partial class Inicial
+    [Migration("20211004131224_Agregado1")]
+    partial class Agregado1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
