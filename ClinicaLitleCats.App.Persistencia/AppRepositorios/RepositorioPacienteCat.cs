@@ -1,6 +1,8 @@
+using System.Collections;
 using System.Collections.Generic;
 using ClinicaLitleCats.App.Dominio;
 using System.Linq;
+
 
 
 namespace ClinicaLitleCats.App.Persistencia
@@ -16,6 +18,9 @@ namespace ClinicaLitleCats.App.Persistencia
 
         }
 
+      
+        
+
         PacienteCat IRepositorioPacienteCat.AddPacienteCat(PacienteCat pacienteCat)
         {
             var pacienteCatAdicionado = _appContext.PacienteCats.Add(pacienteCat);
@@ -23,9 +28,9 @@ namespace ClinicaLitleCats.App.Persistencia
             return pacienteCatAdicionado.Entity;
         }
 
-        void IRepositorioPacienteCat.DeletePacienteCat(int Id)
+        void IRepositorioPacienteCat.DeletePacienteCat(int idPacienteCat)
         {
-            var pacienteCatEncontrado = _appContext.PacienteCats.FirstOrDefault(p => p.Id == Id);
+            var pacienteCatEncontrado = _appContext.PacienteCats.FirstOrDefault(p => p.Id == idPacienteCat);
             if (pacienteCatEncontrado == null)
                 return;
 
@@ -39,9 +44,9 @@ namespace ClinicaLitleCats.App.Persistencia
 
         }
 
-        PacienteCat IRepositorioPacienteCat.GetPacienteCat(int Id)
+        PacienteCat IRepositorioPacienteCat.GetPacienteCat(int idPacienteCat)
         {
-            return _appContext.PacienteCats.FirstOrDefault(p => p.Id == Id);
+            return _appContext.PacienteCats.FirstOrDefault(p => p.Id == idPacienteCat);
 
         }
 
@@ -50,7 +55,17 @@ namespace ClinicaLitleCats.App.Persistencia
             var pacienteCatEncontrado = _appContext.PacienteCats.FirstOrDefault(p => p.Id == pacienteCat.Id);
             if(pacienteCatEncontrado!=null)
             {
+                pacienteCatEncontrado.Alias=pacienteCat.Alias;
+                pacienteCatEncontrado.Raza=pacienteCat.Raza;
+                pacienteCatEncontrado.Edad=pacienteCat.Edad;
+                pacienteCatEncontrado.Genero=pacienteCat.Genero;
+                pacienteCatEncontrado.Color=pacienteCat.Color;                
                 pacienteCatEncontrado.Estado=pacienteCat.Estado;
+                pacienteCatEncontrado.PropietarioEncargado=pacienteCat.PropietarioEncargado;
+                pacienteCatEncontrado.MedicoVeterinario=pacienteCat.MedicoVeterinario;
+                
+
+
 
                 _appContext.SaveChanges();
 
@@ -58,6 +73,32 @@ namespace ClinicaLitleCats.App.Persistencia
             return pacienteCatEncontrado;           
 
         }
+        
+        public MedicoVeterinario AsignarMedicoVeterinario(int idPacienteCat, int idMedico)
+        {
+             var pacienteCatEncontrado=_appContext.PacienteCats.FirstOrDefault(p => p.Id == idPacienteCat);
+            if (pacienteCatEncontrado != null)
+            {
+                var medicoEncontrado = _appContext.MedicosVeterinarios.FirstOrDefault(m => m.Id == idMedico);
+                if (medicoEncontrado != null)
+                {
+                    pacienteCatEncontrado.MedicoVeterinario = medicoEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return medicoEncontrado;
+            }
+            return null;   
+        }
+        public IEnumerable<PacienteCat> GetPacienteCatsCorazon()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IEnumerable<PacienteCat> GetPacienteCatsMacho()
+        {
+            throw new System.NotImplementedException();
+        }
+
     }
 
 

@@ -1,4 +1,7 @@
+using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using ClinicaLitleCats.App.Dominio;
 
 namespace ClinicaLitleCats.App.Persistencia
@@ -8,8 +11,12 @@ namespace ClinicaLitleCats.App.Persistencia
         IEnumerable<PacienteCat> GetAllPacientesCats();
         PacienteCat AddPacienteCat(PacienteCat pacienteCat);
         PacienteCat UpadatePacienteCat(PacienteCat pacienteCat);
-        void DeletePacienteCat(int Id);
-        PacienteCat GetPacienteCat(int Id);
+        void DeletePacienteCat(int idPacienteCat);
+        PacienteCat GetPacienteCat(int idPacienteCat);
+        MedicoVeterinario AsignarMedicoVeterinario(int idPacienteCat, int idMedico);
+        IEnumerable<PacienteCat> GetPacienteCatsMacho();
+        IEnumerable<PacienteCat> GetPacienteCatsCorazon();
+
 
     }
 

@@ -2072,6 +2072,10 @@
       "ClinicaLitleCats.App.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
+        },
         "compile": {
           "bin/placeholder/ClinicaLitleCats.App.Dominio.dll": {}
         },

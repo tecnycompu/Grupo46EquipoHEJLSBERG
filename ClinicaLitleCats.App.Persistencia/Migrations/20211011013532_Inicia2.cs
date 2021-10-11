@@ -2,7 +2,7 @@
 
 namespace ClinicaLitleCats.App.Persistencia.Migrations
 {
-    public partial class Agregado1 : Migration
+    public partial class Inicia2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

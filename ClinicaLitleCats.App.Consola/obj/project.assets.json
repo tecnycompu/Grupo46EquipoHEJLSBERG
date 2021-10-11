@@ -1512,6 +1512,10 @@
       "ClinicaLitleCats.App.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
+        },
         "compile": {
           "bin/placeholder/ClinicaLitleCats.App.Dominio.dll": {}
         },
@@ -5793,7 +5797,8 @@
     ".NETCoreApp,Version=v3.1": [
       "ClinicaLitleCats.App.Dominio >= 1.0.0",
       "ClinicaLitleCats.App.Persistencia >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.Design >= 5.0.0"
+      "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -5843,6 +5848,10 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[5.0.0, )"
           }

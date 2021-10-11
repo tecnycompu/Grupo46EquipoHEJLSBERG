@@ -8,14 +8,28 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Historias",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Diagnostico = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    FechaRegistro = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Historias", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Personas",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    DocumentoIdentidad = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Apellido = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DocumentoIdentidad = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Celular = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -34,52 +48,23 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "SignosVitales",
+                name: "Tratamiento",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    FechaHora = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Signo = table.Column<int>(type: "int", nullable: false),
-                    Valor = table.Column<long>(type: "bigint", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_SignosVitales", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Tratamiento",
-                columns: table => new
-                {
-                    id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
                     FechaHoraTratamiento = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    HistoriaId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Tratamiento", x => x.id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Historias",
-                columns: table => new
-                {
-                    id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Tratamientosid = table.Column<int>(type: "int", nullable: true),
-                    Diagnostico = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    FechaRegistro = table.Column<DateTime>(type: "datetime2", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Historias", x => x.id);
+                    table.PrimaryKey("PK_Tratamiento", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Historias_Tratamiento_Tratamientosid",
-                        column: x => x.Tratamientosid,
-                        principalTable: "Tratamiento",
-                        principalColumn: "id",
+                        name: "FK_Tratamiento_Historias_HistoriaId",
+                        column: x => x.HistoriaId,
+                        principalTable: "Historias",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
@@ -89,27 +74,25 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    PropietarioEncargadoId = table.Column<int>(type: "int", nullable: true),
-                    AuxiliarVeterinarioId = table.Column<int>(type: "int", nullable: true),
-                    SignoVitalId = table.Column<int>(type: "int", nullable: true),
-                    MedicoVeterinarioId = table.Column<int>(type: "int", nullable: true),
-                    historiaid = table.Column<int>(type: "int", nullable: true),
                     Alias = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Raza = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Edad = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Sexo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Genero = table.Column<int>(type: "int", nullable: false),
                     Color = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Foto = table.Column<byte[]>(type: "varbinary(max)", nullable: true),
-                    Estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Estado = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    PropietarioEncargadoId = table.Column<int>(type: "int", nullable: true),
+                    AuxiliarVeterinarioId = table.Column<int>(type: "int", nullable: true),
+                    MedicoVeterinarioId = table.Column<int>(type: "int", nullable: true),
+                    HistoriaId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_PacienteCats", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_PacienteCats_Historias_historiaid",
-                        column: x => x.historiaid,
+                        name: "FK_PacienteCats_Historias_HistoriaId",
+                        column: x => x.HistoriaId,
                         principalTable: "Historias",
-                        principalColumn: "id",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_PacienteCats_Personas_AuxiliarVeterinarioId",
@@ -129,18 +112,29 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
                         principalTable: "Personas",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "SignosVitales",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FechaHora = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Valor = table.Column<float>(type: "real", nullable: false),
+                    Signo = table.Column<int>(type: "int", nullable: false),
+                    PacienteCatId = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_SignosVitales", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_PacienteCats_SignosVitales_SignoVitalId",
-                        column: x => x.SignoVitalId,
-                        principalTable: "SignosVitales",
+                        name: "FK_SignosVitales_PacienteCats_PacienteCatId",
+                        column: x => x.PacienteCatId,
+                        principalTable: "PacienteCats",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Historias_Tratamientosid",
-                table: "Historias",
-                column: "Tratamientosid");
 
             migrationBuilder.CreateIndex(
                 name: "IX_PacienteCats_AuxiliarVeterinarioId",
@@ -148,9 +142,9 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
                 column: "AuxiliarVeterinarioId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_PacienteCats_historiaid",
+                name: "IX_PacienteCats_HistoriaId",
                 table: "PacienteCats",
-                column: "historiaid");
+                column: "HistoriaId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_PacienteCats_MedicoVeterinarioId",
@@ -163,13 +157,24 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
                 column: "PropietarioEncargadoId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_PacienteCats_SignoVitalId",
-                table: "PacienteCats",
-                column: "SignoVitalId");
+                name: "IX_SignosVitales_PacienteCatId",
+                table: "SignosVitales",
+                column: "PacienteCatId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Tratamiento_HistoriaId",
+                table: "Tratamiento",
+                column: "HistoriaId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "SignosVitales");
+
+            migrationBuilder.DropTable(
+                name: "Tratamiento");
+
             migrationBuilder.DropTable(
                 name: "PacienteCats");
 
@@ -178,12 +183,6 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
 
             migrationBuilder.DropTable(
                 name: "Personas");
-
-            migrationBuilder.DropTable(
-                name: "SignosVitales");
-
-            migrationBuilder.DropTable(
-                name: "Tratamiento");
         }
     }
 }

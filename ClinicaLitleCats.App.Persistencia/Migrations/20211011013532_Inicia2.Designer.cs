@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ClinicaLitleCats.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211004131224_Agregado1")]
-    partial class Agregado1
+    [Migration("20211011013532_Inicia2")]
+    partial class Inicia2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,7 +23,7 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
 
             modelBuilder.Entity("ClinicaLitleCats.App.Dominio.Historia", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
@@ -34,12 +34,7 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
                     b.Property<DateTime>("FechaRegistro")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("Tratamientosid")
-                        .HasColumnType("int");
-
-                    b.HasKey("id");
-
-                    b.HasIndex("Tratamientosid");
+                    b.HasKey("Id");
 
                     b.ToTable("Historias");
                 });
@@ -66,8 +61,11 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
                     b.Property<string>("Estado")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<byte[]>("Foto")
-                        .HasColumnType("varbinary(max)");
+                    b.Property<int>("Genero")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("HistoriaId")
+                        .HasColumnType("int");
 
                     b.Property<int?>("MedicoVeterinarioId")
                         .HasColumnType("int");
@@ -78,26 +76,15 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
                     b.Property<string>("Raza")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Sexo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("SignoVitalId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("historiaid")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.HasIndex("AuxiliarVeterinarioId");
 
+                    b.HasIndex("HistoriaId");
+
                     b.HasIndex("MedicoVeterinarioId");
 
                     b.HasIndex("PropietarioEncargadoId");
-
-                    b.HasIndex("SignoVitalId");
-
-                    b.HasIndex("historiaid");
 
                     b.ToTable("PacienteCats");
                 });
@@ -148,20 +135,25 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
                     b.Property<DateTime>("FechaHora")
                         .HasColumnType("datetime2");
 
+                    b.Property<int?>("PacienteCatId")
+                        .HasColumnType("int");
+
                     b.Property<int>("Signo")
                         .HasColumnType("int");
 
-                    b.Property<long>("Valor")
-                        .HasColumnType("bigint");
+                    b.Property<float>("Valor")
+                        .HasColumnType("real");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("PacienteCatId");
 
                     b.ToTable("SignosVitales");
                 });
 
             modelBuilder.Entity("ClinicaLitleCats.App.Dominio.Tratamientos", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
@@ -172,7 +164,12 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
                     b.Property<DateTime>("FechaHoraTratamiento")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("id");
+                    b.Property<int?>("HistoriaId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("HistoriaId");
 
                     b.ToTable("Tratamiento");
                 });
@@ -219,20 +216,15 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
                     b.HasDiscriminator().HasValue("PropietarioEncargado");
                 });
 
-            modelBuilder.Entity("ClinicaLitleCats.App.Dominio.Historia", b =>
-                {
-                    b.HasOne("ClinicaLitleCats.App.Dominio.Tratamientos", "Tratamientos")
-                        .WithMany()
-                        .HasForeignKey("Tratamientosid");
-
-                    b.Navigation("Tratamientos");
-                });
-
             modelBuilder.Entity("ClinicaLitleCats.App.Dominio.PacienteCat", b =>
                 {
                     b.HasOne("ClinicaLitleCats.App.Dominio.AuxiliarVeterinario", "AuxiliarVeterinario")
                         .WithMany()
                         .HasForeignKey("AuxiliarVeterinarioId");
+
+                    b.HasOne("ClinicaLitleCats.App.Dominio.Historia", "Historia")
+                        .WithMany()
+                        .HasForeignKey("HistoriaId");
 
                     b.HasOne("ClinicaLitleCats.App.Dominio.MedicoVeterinario", "MedicoVeterinario")
                         .WithMany()
@@ -242,23 +234,37 @@ namespace ClinicaLitleCats.App.Persistencia.Migrations
                         .WithMany()
                         .HasForeignKey("PropietarioEncargadoId");
 
-                    b.HasOne("ClinicaLitleCats.App.Dominio.SignoVital", "SignoVital")
-                        .WithMany()
-                        .HasForeignKey("SignoVitalId");
-
-                    b.HasOne("ClinicaLitleCats.App.Dominio.Historia", "historia")
-                        .WithMany()
-                        .HasForeignKey("historiaid");
-
                     b.Navigation("AuxiliarVeterinario");
 
-                    b.Navigation("historia");
+                    b.Navigation("Historia");
 
                     b.Navigation("MedicoVeterinario");
 
                     b.Navigation("PropietarioEncargado");
+                });
 
-                    b.Navigation("SignoVital");
+            modelBuilder.Entity("ClinicaLitleCats.App.Dominio.SignoVital", b =>
+                {
+                    b.HasOne("ClinicaLitleCats.App.Dominio.PacienteCat", null)
+                        .WithMany("SignosVitales")
+                        .HasForeignKey("PacienteCatId");
+                });
+
+            modelBuilder.Entity("ClinicaLitleCats.App.Dominio.Tratamientos", b =>
+                {
+                    b.HasOne("ClinicaLitleCats.App.Dominio.Historia", null)
+                        .WithMany("Tratamiento")
+                        .HasForeignKey("HistoriaId");
+                });
+
+            modelBuilder.Entity("ClinicaLitleCats.App.Dominio.Historia", b =>
+                {
+                    b.Navigation("Tratamiento");
+                });
+
+            modelBuilder.Entity("ClinicaLitleCats.App.Dominio.PacienteCat", b =>
+                {
+                    b.Navigation("SignosVitales");
                 });
 #pragma warning restore 612, 618
         }

@@ -2,11 +2,12 @@ namespace ClinicaLitleCats.App.Dominio
 {
     public enum Signo
     {
+        TensionArterial,
+        FrecuenciaCardica,
+        FrecuenciaRespiratoria,
+        SaturacionOxigeno,
+        TemperaturaCorporal
 
-        temperatura,
-        pulso,
-        presion,
-        respiracion,
-        
+
     }
 }
