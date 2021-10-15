@@ -9,8 +9,9 @@ using ClinicaLitleCats.App.Persistencia;
 using Microsoft.AspNetCore.Authorization;
 
 
-namespace ClinicaLitleCats.App.Frontend.pages
+namespace ClinicaLitleCats.App.Frontend.Pages
 {
+   
     public class ListModel : PageModel
     {
         private readonly IRepositorioPropietario repositorioPropietarios;

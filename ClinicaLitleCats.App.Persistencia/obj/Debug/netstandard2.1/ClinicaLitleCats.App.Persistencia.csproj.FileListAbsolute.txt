@@ -20,6 +20,5 @@ D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\o
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.AssemblyInfoInputs.cache
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.AssemblyInfo.cs
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.csproj.CoreCompileInputs.cache
-D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.csproj.CopyComplete
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.dll
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.pdb
