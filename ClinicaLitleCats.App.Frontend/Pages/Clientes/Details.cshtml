@@ -1,0 +1,45 @@
+﻿@page
+@model ClinicaLitleCats.App.Frontend.pages.DetailsModel 
+@{
+}
+<h2>Datos detallados del Propietaria</h2>
+
+<div>
+    Id Persona: @Model.Propietario.DocumentoIdentidad
+    
+</div>
+
+<div>
+    Nombres: @Model.Propietario.Nombre
+</div>
+
+<div>
+    Apellido: @Model.Propietario.Apellido
+</div>
+
+<div>
+    Celular: @Model.Propietario.Celular
+</div>
+
+<div>
+    Email: @Model.Propietario.Email
+</div>
+
+<div>
+    Dirección: @Model.Propietario.Direccion
+</div>
+
+<div>
+    Ocupación: @Model.Propietario.Ocupacion
+</div>
+
+<div>
+    Nexo: @Model.Propietario.Nexo
+</div>
+
+<div>
+    Ciudad: @Model.Propietario.Ciudad
+</div>
+<a asp-page="./List" class="btn-default">Volver a la lista de Propietarios</a>
+
+

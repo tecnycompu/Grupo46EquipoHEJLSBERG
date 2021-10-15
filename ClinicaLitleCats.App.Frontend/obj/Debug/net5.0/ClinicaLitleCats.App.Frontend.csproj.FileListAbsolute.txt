@@ -159,6 +159,7 @@ D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Frontend\bin\D
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Frontend\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Frontend\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Frontend\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+<<<<<<< HEAD
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Frontend\obj\Debug\net5.0\ClinicaLitleCats.App.Frontend.pdb
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Frontend\bin\Debug\net5.0\appsettings.Development.json
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Frontend\bin\Debug\net5.0\appsettings.json
@@ -320,3 +321,7 @@ C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Frontend\obj\Deb
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Frontend\obj\Debug\net5.0\ClinicaLitleCats.App.Frontend.dll
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Frontend\obj\Debug\net5.0\ref\ClinicaLitleCats.App.Frontend.dll
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Frontend\obj\Debug\net5.0\ClinicaLitleCats.App.Frontend.genruntimeconfig.cache
+=======
+D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Frontend\obj\Debug\net5.0\Razor\Pages\Clientes\Details.cshtml.g.cs
+D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Frontend\obj\Debug\net5.0\Razor\Pages\Clientes\Edit.cshtml.g.cs
+>>>>>>> 264de15ec6e077b4c78bc6c9ed401dcd731c6e2e
