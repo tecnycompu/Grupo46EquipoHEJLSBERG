@@ -22,6 +22,7 @@ public class AppContext : DbContext
         }
     }
 
+
 // no olvidar buscar asure y crear una nueva conexion
 // (localdb)\MSSQLLocalDB
 //al igual que en sql sever management studio

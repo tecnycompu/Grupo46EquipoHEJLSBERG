@@ -26,14 +26,14 @@ namespace ClinicaLitleCats.App.Consola
             var propietario = new PropietarioEncargado()
             {
                 DocumentoIdentidad = "10145214455",
-                Nombre = "Hernando",
-                Apellido = "Lopez",
-                Celular = "31524578",
-                Email = "user2@latin.com",
-                Direccion = "Centro Soacha",
-                Ocupacion= "Distribuidor",
+                Nombre = "Cesar",
+                Apellido = "Palacios",
+                Celular = "3145658956",
+                Email = "user3@latin.com",
+                Direccion = "Centro cali",
+                Ocupacion= "diseñador",
                 Nexo = "Propietario",
-                Ciudad = "Botota D.C."
+                Ciudad = "Cali valle"
             };
             _repoPropietario.AddPropietario(propietario);
 
