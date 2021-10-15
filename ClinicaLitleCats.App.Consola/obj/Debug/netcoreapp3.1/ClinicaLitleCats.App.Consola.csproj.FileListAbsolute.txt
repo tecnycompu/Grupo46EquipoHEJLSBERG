@@ -131,7 +131,6 @@ D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Consola\obj\De
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.AssemblyInfoInputs.cache
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.AssemblyInfo.cs
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.csproj.CoreCompileInputs.cache
-D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.csproj.CopyComplete
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.dll
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.pdb
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.genruntimeconfig.cache
