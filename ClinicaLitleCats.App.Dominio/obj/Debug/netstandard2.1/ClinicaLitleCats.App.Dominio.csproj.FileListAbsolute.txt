@@ -6,7 +6,6 @@ C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debu
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.csproj.CoreCompileInputs.cache
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.dll
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.pdb
-C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.csprojAssemblyReference.cache
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Dominio\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.deps.json
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Dominio\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.dll
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Dominio\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.pdb
@@ -17,3 +16,5 @@ D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Dominio\obj\De
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Dominio\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.csproj.CoreCompileInputs.cache
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Dominio\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.dll
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Dominio\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.pdb
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.csproj.AssemblyReference.cache
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Dominio\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig

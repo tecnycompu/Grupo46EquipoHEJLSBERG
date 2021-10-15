@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Consola\\ClinicaLitleCats.App.Consola.csproj": {}
+    "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Consola\\ClinicaLitleCats.App.Consola.csproj": {}
   },
   "projects": {
-    "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Consola\\ClinicaLitleCats.App.Consola.csproj": {
+    "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Consola\\ClinicaLitleCats.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Consola\\ClinicaLitleCats.App.Consola.csproj",
+        "projectUniqueName": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Consola\\ClinicaLitleCats.App.Consola.csproj",
         "projectName": "ClinicaLitleCats.App.Consola",
-        "projectPath": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Consola\\ClinicaLitleCats.App.Consola.csproj",
-        "packagesPath": "C:\\Users\\HOUSE\\.nuget\\packages\\",
-        "outputPath": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Consola\\obj\\",
+        "projectPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Consola\\ClinicaLitleCats.App.Consola.csproj",
+        "packagesPath": "C:\\Users\\ATC\\.nuget\\packages\\",
+        "outputPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HOUSE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ATC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -26,11 +26,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj": {
-                "projectPath": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj"
+              "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj": {
+                "projectPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj"
               },
-              "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj": {
-                "projectPath": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj"
+              "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj": {
+                "projectPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj"
               }
             }
           }
@@ -69,7 +69,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.19, 3.1.19]"
+              "version": "[3.1.20, 3.1.20]"
             }
           ],
           "frameworkReferences": {
@@ -77,21 +77,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj": {
+    "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj",
+        "projectUniqueName": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj",
         "projectName": "ClinicaLitleCats.App.Dominio",
-        "projectPath": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\HOUSE\\.nuget\\packages\\",
-        "outputPath": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Dominio\\obj\\",
+        "projectPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\ATC\\.nuget\\packages\\",
+        "outputPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HOUSE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ATC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -151,21 +151,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj": {
+    "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj",
         "projectName": "ClinicaLitleCats.App.Persistencia",
-        "projectPath": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\HOUSE\\.nuget\\packages\\",
-        "outputPath": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Persistencia\\obj\\",
+        "projectPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\ATC\\.nuget\\packages\\",
+        "outputPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HOUSE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ATC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -177,8 +177,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj": {
-                "projectPath": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj"
+              "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj": {
+                "projectPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj"
               }
             }
           }
@@ -229,7 +229,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

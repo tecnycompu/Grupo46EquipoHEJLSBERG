@@ -6,10 +6,8 @@ C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\bin
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.pdb
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.dll
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Dominio.pdb
-C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.csproj.CopyComplete
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.dll
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.pdb
-C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.csprojAssemblyReference.cache
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.deps.json
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.dll
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\bin\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.pdb
@@ -22,3 +20,5 @@ D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\o
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.csproj.CoreCompileInputs.cache
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.dll
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.pdb
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.csproj.AssemblyReference.cache
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Persistencia\obj\Debug\netstandard2.1\ClinicaLitleCats.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig

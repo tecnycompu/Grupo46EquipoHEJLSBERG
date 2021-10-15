@@ -26,11 +26,9 @@ C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\bin\Debu
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.AssemblyInfoInputs.cache
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.AssemblyInfo.cs
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.csproj.CoreCompileInputs.cache
-C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.csproj.CopyComplete
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.dll
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.pdb
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.genruntimeconfig.cache
-C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.csprojAssemblyReference.cache
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
@@ -135,3 +133,5 @@ D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Consola\obj\De
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.dll
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.pdb
 D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.genruntimeconfig.cache
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.csproj.AssemblyReference.cache
+C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Consola\obj\Debug\netcoreapp3.1\ClinicaLitleCats.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
