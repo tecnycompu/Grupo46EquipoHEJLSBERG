@@ -12,7 +12,7 @@ namespace ClinicaLitleCats.App.Persistencia
         // FIRMA DE METODOS
         IEnumerable<PropietarioEncargado> GetAllPropietarios();
         PropietarioEncargado AddPropietario(PropietarioEncargado propietario);
-        PropietarioEncargado UpadatePropietario(PropietarioEncargado Propietario);
+        PropietarioEncargado UpdatePropietario(PropietarioEncargado Propietario);
         void DeletePropietario(int idPropietario);
         PropietarioEncargado GetPropietario(int idPropietario);
     }

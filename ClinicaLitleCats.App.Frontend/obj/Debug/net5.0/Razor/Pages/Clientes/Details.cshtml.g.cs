@@ -150,9 +150,9 @@ using ClinicaLitleCats.App.Frontend;
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<ClinicaLitleCats.App.Frontend.pages.DetailsModel> Html { get; private set; }
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<ClinicaLitleCats.App.Frontend.pages.DetailsModel> ViewData => (global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<ClinicaLitleCats.App.Frontend.pages.DetailsModel>)PageContext?.ViewData;
-        public ClinicaLitleCats.App.Frontend.pages.DetailsModel Model => ViewData.Model;
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<ClinicaLitleCats.App.Frontend.Pages.DetailsModel> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<ClinicaLitleCats.App.Frontend.Pages.DetailsModel> ViewData => (global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<ClinicaLitleCats.App.Frontend.Pages.DetailsModel>)PageContext?.ViewData;
+        public ClinicaLitleCats.App.Frontend.Pages.DetailsModel Model => ViewData.Model;
     }
 }
 #pragma warning restore 1591

@@ -21,7 +21,7 @@ namespace ClinicaLitleCats.App.Persistencia
             _appContext.SaveChanges();
             return propietarioAdicionado.Entity;      
         }
-        PropietarioEncargado IRepositorioPropietario.UpadatePropietario(PropietarioEncargado Propietario)
+        PropietarioEncargado IRepositorioPropietario.UpdatePropietario(PropietarioEncargado Propietario)
         {
             var propietarioEncontrado=_appContext.PropietariosEncargados.FirstOrDefault(p=>p.Id==Propietario.Id);
             if(propietarioEncontrado!=null)

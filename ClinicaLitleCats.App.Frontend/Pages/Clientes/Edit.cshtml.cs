@@ -19,11 +19,11 @@ namespace ClinicaLitleCats.App.Frontend.Pages
             this.repositorioPropietarios=new RepositorioPropietario(new ClinicaLitleCats.App.Persistencia.AppContext());
         }
     
-        public IActionResult OnGet(int propietarioEncargadoId)
+        public IActionResult OnGet(int? propietarioId) 
         {
-            if (propietarioEncargadoId.HasValue)
+            if (propietarioId.HasValue)
             {
-                Propietario=repositorioPropietarios.GetPropietario(propietarioEncargadoId.value);
+                Propietario=repositorioPropietarios.GetPropietario(propietarioId.Value);
             }
             else
             {
@@ -34,9 +34,12 @@ namespace ClinicaLitleCats.App.Frontend.Pages
                 return RedirectToPage("./Notfound");
             }
             else
+            {
                 return Page();
+            }
         }
         public IActionResult OnPost()
+        
         {
                 if (!ModelState.IsValid)
                 {
