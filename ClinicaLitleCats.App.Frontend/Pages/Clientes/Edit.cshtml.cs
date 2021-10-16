@@ -27,7 +27,7 @@ namespace ClinicaLitleCats.App.Frontend.Pages
             }
             else
             {
-                    Propietario=new PropietarioEncargado();
+                Propietario=new PropietarioEncargado();
             }
             if (Propietario==null)
             {
@@ -38,23 +38,23 @@ namespace ClinicaLitleCats.App.Frontend.Pages
                 return Page();
             }
         }
-        public IActionResult OnPost(PropietarioEncargado Propietario)
+        public IActionResult OnPost() //PropietarioEncargado Propietario
         
         {
-                /* if (!ModelState.IsValid)
+                if (!ModelState.IsValid)
                 {
                     return Page();
-                } */
-                if (this.Propietario.Id>0)
+                } 
+                //ojo no esta validando el usuario encontrado
+                if (Propietario.Id > 0)
                 {
-
                     Propietario=repositorioPropietarios.UpdatePropietario(Propietario);
-                    Console.WriteLine("update");
+                    Console.WriteLine("ingreso por update");
                 }
                 else
                 {
                     repositorioPropietarios.AddPropietario(Propietario);
-                    Console.WriteLine("crear");
+                    Console.WriteLine("ingreso por crear");
                 }
                 return Page();
         }
