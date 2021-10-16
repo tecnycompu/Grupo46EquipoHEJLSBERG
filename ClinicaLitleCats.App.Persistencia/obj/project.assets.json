@@ -7267,19 +7267,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HOUSE\\.nuget\\packages\\": {}
+    "C:\\Users\\ATC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj",
       "projectName": "ClinicaLitleCats.App.Persistencia",
-      "projectPath": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\HOUSE\\.nuget\\packages\\",
-      "outputPath": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Persistencia\\obj\\",
+      "projectPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Persistencia\\ClinicaLitleCats.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\ATC\\.nuget\\packages\\",
+      "outputPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HOUSE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ATC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7291,8 +7291,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj": {
-              "projectPath": "D:\\ClinicaVeterinaria\\Grupo46EquipoHEJLSBERG\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj"
+            "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj": {
+              "projectPath": "C:\\ClinicaVeterinaria\\ClinicaLitleCats.App\\ClinicaLitleCats.App.Dominio\\ClinicaLitleCats.App.Dominio.csproj"
             }
           }
         }

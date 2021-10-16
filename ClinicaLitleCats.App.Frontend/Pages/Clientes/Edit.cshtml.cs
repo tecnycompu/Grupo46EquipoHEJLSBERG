@@ -38,13 +38,19 @@ namespace ClinicaLitleCats.App.Frontend.Pages
                 return Page();
             }
         }
-        public IActionResult OnPost() //PropietarioEncargado Propietario
+
+
+
+        public IActionResult OnPost(PropietarioEncargado Propietario) //
         
         {
                 if (!ModelState.IsValid)
                 {
                     return Page();
                 } 
+
+                Console.WriteLine("PropietarioId: "+Propietario.Id);
+
                 //ojo no esta validando el usuario encontrado
                 if (Propietario.Id > 0)
                 {
@@ -57,7 +63,7 @@ namespace ClinicaLitleCats.App.Frontend.Pages
                     Console.WriteLine("ingreso por crear");
                 }
                 return Page();
-        }
+        } 
         
     }
 }

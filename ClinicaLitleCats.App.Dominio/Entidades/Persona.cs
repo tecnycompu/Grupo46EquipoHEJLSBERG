@@ -15,3 +15,11 @@ namespace ClinicaLitleCats.App.Dominio
     }
 
 }
+
+
+
+/* //Llave primaria
+[Key]
+
+//Llave foránea
+[ForeignKey("nombre_entidad")] */
