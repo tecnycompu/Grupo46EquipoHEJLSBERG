@@ -30,8 +30,5 @@ namespace ClinicaLitleCats.App.Frontend.Pages
                return Page();
            }
        }
-        public void OnGet()
-        {
-        }
     }
 }

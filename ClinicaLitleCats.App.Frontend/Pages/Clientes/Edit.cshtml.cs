@@ -38,20 +38,23 @@ namespace ClinicaLitleCats.App.Frontend.Pages
                 return Page();
             }
         }
-        public IActionResult OnPost()
+        public IActionResult OnPost(PropietarioEncargado Propietario)
         
         {
-                if (!ModelState.IsValid)
+                /* if (!ModelState.IsValid)
                 {
                     return Page();
-                }
-                if (Propietario.Id>0)
+                } */
+                if (this.Propietario.Id>0)
                 {
+
                     Propietario=repositorioPropietarios.UpdatePropietario(Propietario);
+                    Console.WriteLine("update");
                 }
                 else
                 {
                     repositorioPropietarios.AddPropietario(Propietario);
+                    Console.WriteLine("crear");
                 }
                 return Page();
         }
