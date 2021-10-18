@@ -16,9 +16,7 @@ namespace ClinicaLitleCats.App.Persistencia
         {
             _appContext = appContext;
 
-        }
-
-      
+        }      
     
 
         PacienteCat IRepositorioPacienteCat.AddPacienteCat(PacienteCat pacienteCat)

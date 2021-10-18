@@ -329,3 +329,4 @@ D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Frontend\obj\D
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Frontend\obj\Debug\net5.0\Razor\Pages\Clientes\Delete.cshtml.g.cs
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Frontend\obj\Debug\net5.0\Razor\Pages\Clientes\Details.cshtml.g.cs
 C:\ClinicaVeterinaria\ClinicaLitleCats.App\ClinicaLitleCats.App.Frontend\obj\Debug\net5.0\Razor\Pages\Clientes\Edit.cshtml.g.cs
+D:\ClinicaVeterinaria\Grupo46EquipoHEJLSBERG\ClinicaLitleCats.App.Frontend\obj\Debug\net5.0\Razor\Pages\Gatos\List.cshtml.g.cs

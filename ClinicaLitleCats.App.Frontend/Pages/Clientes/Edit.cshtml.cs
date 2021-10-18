@@ -41,7 +41,7 @@ namespace ClinicaLitleCats.App.Frontend.Pages
 
 
 
-        public IActionResult OnPost(PropietarioEncargado Propietario) //
+        public IActionResult OnPost() //PropietarioEncargado Propietario
         
         {
                 if (!ModelState.IsValid)

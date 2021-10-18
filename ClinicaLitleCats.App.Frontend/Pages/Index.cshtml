@@ -1,10 +1,31 @@
-﻿@page
+﻿
+@page
+
 @model IndexModel
+
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "LitleCats";
 }
 
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Bienvenidos</h1>
+    <blockquote>
+    <br>
+    <br>
+    <br>
+    <img src="@Url.Content("~/01.jpg")" width="400px" height="300px" alt="imgf"/>
+    <h2><p> Consultas Veterianarias</p></h2>
+    <p>La Clínica Litle Cats se ha especializado en el ejercicio de la Medicina Veterinaria que se ocupa de las enfermedades y su prevención, manejo, conducta , nutrición , selección genética, identificación y peritaje de  gatos.</p>
+    <br>
+    <br>
+    <h2><p>Reservas!..</p></h2>
+    <p>Su mascota está monitorizado las 24 horas del día por personal cualificado, para poder cumplir con todas las exigencias y necesidades de su felino o canino. Su mascota está en buenas manos con nuestro equipo de veterinarios profesionales. Ofrecemos solo un servicio de alta calidad.</p>
+    <br>
+    <br>
+    <h2><p>Otros Servicios</p></h2>
+    <p>24 hrs de domingo a domingo para la toma de muestras. El análisis de las diferentes muestras tomadas a nuestros pacientes se realiza en nuestro laboratorio clínico, lo cual nos permite prevenir, diagnosticar diferentes patologías y tratar de una forma rápida a cada uno de nuestros pacientes.</p>
+    </blockquote>
+    <p>Lee la condiciones del Servicio y Politicas de Calidad en: <a href="https://">Politaca de Calidad</a>.</p>
+
 </div>

@@ -1,14 +1,14 @@
 ﻿@page
 @model ClinicaLitleCats.App.Frontend.Pages.EditModel
 @{
-    int propietarioId=Model.Propietario.Id; 
+    int propietarioId=Model.Propietario.Id;
 }
 
 
 <h2>Edición de los datos del Propietario</h2>
 
 <form method="post">
-    <imput type ="hidden" asp-for="Propietario.Id"/>
+    <imput type ="hidden" asp-for="Propietario.Id"/> @* Propietario *@
 
     <div class ="form-group">
         <label asp-for="Propietario.DocumentoIdentidad"></label>
@@ -66,3 +66,4 @@
     <button type="submit" class="btn btn-primary">Guardar</button>
 
 </form>
+<a asp-page="./List" class="btn-default">Volver a la lista de Clientes</a>
